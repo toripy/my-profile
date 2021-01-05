@@ -1,0 +1,86 @@
+body{
+    font-family: 'Pirata One', cursive;
+    margin: 0%;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+}
+.name{
+    color:orange;
+}
+.linking{
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+    
+}
+.half-width img{
+    width: 60%;
+    border-radius: 50%;
+    margin: auto;
+}
+.top-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last-text{
+    color: orange;
+}
+#exp{
+    text-align: center;
+}
+.shadow{
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+
+}
+.last-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#full1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#full2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 12px;
+}
